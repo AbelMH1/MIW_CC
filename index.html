@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de Imágenes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Analizador de Imágenes con Azure Vision</h1>
+
+    <!-- Enlace para ir a la galería -->
+    <a href="gallery.html" class="link-to-gallery">Ir a la galería</a>
+
+    <!-- Input para seleccionar la imagen -->
+    <input type="file" id="file-input" accept="image/*">
+    
+    <!-- Vista previa de la imagen seleccionada -->
+    <div id="image-preview-container">
+      <img id="image-preview" src="" alt="Vista previa de la imagen"/>
+    </div>
+    
+    <!-- Botón para clasificar la imagen -->
+    <button id="clasify-button">Clasificar Imagen</button>
+    <!-- Botón para subir la imagen -->
+    <button id="process-button">Subir Imagen al Proceso de Clasificación</button>
+    
+    <!-- Título donde se mostrará el resultado -->
+    <div id="title">El resultado aparecerá aquí.</div>
+  </div>
+  
+  <script src="analize.js"></script>
+</body>
+</html>
