@@ -5,7 +5,7 @@ const title = document.getElementById('title');
 const imagePreview = document.getElementById('image-preview');
 
 // const backendUrl = 'http://localhost:3000'
-const backendUrl = 'http://34.173.223.50:3000'
+const backendUrl = 'https://34.173.223.50:3000'
 
 // Función para mostrar la vista previa de la imagen seleccionada
 fileInput.addEventListener('change', (event) => {
