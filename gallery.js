@@ -3,7 +3,7 @@ window.onload = async () => {
   const dogImagesList = document.getElementById('dog-images-list');
 
   // const backendUrl = 'http://localhost:3000'
-  const backendUrl = 'http://34.173.223.50:3000'
+  const backendUrl = 'https://34.173.223.50:3000'
   const imagesUrl = 'https://miwcloudcomputing.blob.core.windows.net'
 
   try {
